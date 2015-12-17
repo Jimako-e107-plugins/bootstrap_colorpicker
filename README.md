@@ -7,7 +7,7 @@ This plugin enables the useage of [bootstrap-colorpicker](https://github.com/mjo
 You'll need to perform a check to make sure this is installed and enabled. Maybe like this:
 
 ```php
-if(e107::isInstalled('bootstrap-colorpicker') && e107::pref('bootstrap-colorpicker', 'enabled))
+if(e107::isInstalled('bootstrap-colorpicker') && e107::pref('bootstrap-colorpicker', 'enabled'))
 {
 	// code to generate your form fields using the colorpicker
 }
