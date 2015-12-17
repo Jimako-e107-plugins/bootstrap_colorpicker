@@ -13,18 +13,15 @@ if (!getperms('P'))
 	exit;
 }
 
-class bootstrap-colorpicker_adminArea extends e_admin_dispatcher
+class bootstrap_colorpicker_adminArea extends e_admin_dispatcher
 {
 	protected $modes = array(
-
 		'main'	=> array(
-			'controller' 	=> 'bootstrap-colorpicker_ui',
+			'controller' 	=> 'bootstrap_colorpicker_ui',
 			'path' 			=> null,
-			'ui' 			=> 'bootstrap-colorpicker_form_ui',
+			'ui' 			=> 'bootstrap_colorpicker_form_ui',
 			'uipath' 		=> null
 		),
-
-
 	);
 
 	protected $adminMenu = array(
@@ -35,13 +32,13 @@ class bootstrap-colorpicker_adminArea extends e_admin_dispatcher
 		'main/edit'	=> 'main/list'
 	);
 
-	protected $menuTitle = 'bootstrap-colorpicker';
+	protected $menuTitle = 'Bootstrap Colorpicker';
 }
 
-class bootstrap-colorpicker_ui extends e_admin_ui
+class bootstrap_colorpicker_ui extends e_admin_ui
 {
 	protected $pluginTitle		= 'Bootstrap Colorpicker';
-	protected $pluginName		= 'bootstrap-colorpicker';
+	protected $pluginName		= 'bootstrap_colorpicker';
 	protected $table			= '';
 	protected $pid				= '';
 	protected $perPage			= 10;
@@ -90,11 +87,11 @@ class bootstrap-colorpicker_ui extends e_admin_ui
 	}
 }
 
-class bootstrap-colorpicker_form_ui extends e_admin_form_ui
+class bootstrap_colorpicker_form_ui extends e_admin_form_ui
 {
 }
 
-new bootstrap-colorpicker_adminArea();
+new bootstrap_colorpicker_adminArea();
 
 require_once(e_ADMIN."auth.php");
 e107::getAdminUI()->runPage();

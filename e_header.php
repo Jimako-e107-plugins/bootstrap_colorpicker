@@ -6,7 +6,7 @@
  * For additional information refer to the README.md file.
  *
  */
-if(!defined('e107_INIT'])){ exit; }
+if(!defined('e107_INIT')){ exit; }
 
 if(e107::pref('bootstrap-colorpicker', 'enabled') == true)
 {
