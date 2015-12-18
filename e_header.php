@@ -10,6 +10,7 @@ if(!defined('e107_INIT')){ exit; }
 
 if(e107::pref('bootstrap-colorpicker', 'enabled') == true)
 {
-	e107::js('bootstrap-colorpicker', 'js/boostrap-colorpicker.min.js', 'jquery');
-	e107::js('bootstrap-colorpicker', 'css/bootstrap-colorpicker.min.css');
+	e107::js('bootstrap-colorpicker', 'js/bootstrap-colorpicker.min.js');
+	e107::js('bootstrap-colorpicker', 'js/script.js');
+	e107::css('bootstrap-colorpicker', 'css/bootstrap-colorpicker.min.css');
 }
