@@ -54,6 +54,13 @@ class bootstrap_colorpicker_ui extends e_admin_ui
 			'data' => 'str',
 			'help' => 'Enable to load the required files to utlize the colorpicker form element.'
 		),
+		'admincss' => array(
+			'title' => 'Admin Inline css',
+			'type' => 'textarea',
+			'data' => 'str',
+			'writeParms'  =>  array('size'=> 'block-level'),
+			'help' => 'custom css for colorpicker'
+		),
 	);
 
 	public function init()

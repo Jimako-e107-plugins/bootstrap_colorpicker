@@ -14,5 +14,6 @@
 	</adminLinks>
 	<pluginPrefs>
 		<pref name='enabled'>true</pref>
+		<pref name='admincss'>true</pref>
 	</pluginPrefs>
 </e107Plugin>

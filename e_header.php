@@ -8,9 +8,13 @@
  */
 if(!defined('e107_INIT')){ exit; }
 
-if(e107::pref('bootstrap-colorpicker', 'enabled') == true)
+if(e107::pref('bootstrap_colorpicker', 'enabled') == true)
 {
-	e107::js('bootstrap-colorpicker', 'js/bootstrap-colorpicker.min.js');
-	e107::js('bootstrap-colorpicker', 'js/script.js');
-	e107::css('bootstrap-colorpicker', 'css/bootstrap-colorpicker.min.css');
+	e107::js('bootstrap_colorpicker', 'js/bootstrap-colorpicker.min.js');
+	e107::js('bootstrap_colorpicker', 'js/script.js');
+	e107::css('bootstrap_colorpicker', 'css/bootstrap-colorpicker.min.css');
+	
+	$inlinecss = e107::pref('bootstrap_colorpicker', 'admincss');
+	e107::css('inline', $inlinecss);
+ 
 }
