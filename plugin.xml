@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e107Plugin name="Bootstrap Colorpicker" lan="" version="1.0" date="2015-12-17" compatibility="2.0" installRequired="true" >
-	<author name="Patrick Weaver" url="http://trickmod.com" />
-	<summary lan="">Enable the use of a colorpicker form element on your website.</summary>
+<e107Plugin name="Bootstrap Colorpicker" lan="" version="2.0" date="2025-04-19" compatibility="2.3" installRequired="true" >
+	<author name="Jimako" url="https://www.jmsupport.sk" />
+	<summary lan="">Enable the use of a colorpicker form element on your website. Updated older plugin by Patrick Weaver. </summary>
 	<description lan="">e107 does not have a native colorpicker form element. Let's fix that!</description>
 	<keywords>
 		<word>colorpicker</word>
 		<word>form</word>
 	</keywords>
 	<category>tools</category>
-	<copyright>2015</copyright>
+	<copyright>2025</copyright>
 	<adminLinks>
 		<link url="admin_config.php" description="" icon="" iconSmall="" primary="true" >LAN_CONFIGURE</link>
 	</adminLinks>
 	<pluginPrefs>
 		<pref name='enabled'>true</pref>
-		<pref name='admincss'>true</pref>
+		<pref name='admincss'></pref>
 	</pluginPrefs>
 </e107Plugin>

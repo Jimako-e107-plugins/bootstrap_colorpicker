@@ -32,10 +32,30 @@ Obviously if you're already utilizing the `writeParms` parameter you just need t
 	'optArray' => array(
 		'hello' => 'Hello',
 	),
-	'class' => 'colorpicker',
+	'class' => 'ecp',
 ),
+```
+
+Or - if you want to use it as a component
+```php
+				'writeParms'   => array( 
+					'default'  => '#DDDDDD',
+					'pre'      => '<div class="col-md-2 ecp input-group colorpicker-component colorpicker-element">',
+					'post'     => '<span class="input-group-addon"><i></i></span></div>' 
+				),
 ```
 
 ## Issues? Bugs?
 
 That should be it. Open an issue if this doesn't work as intended. Please direct issues with the actual colorpicker functionality to the above linked repo!
+
+
+## Note
+
+You don't need this plugin if you use:
+
+- jmadmin plugin
+
+- appstrap plugin 
+
+They have inbuilt colorpicker solution. 

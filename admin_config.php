@@ -67,7 +67,7 @@ class bootstrap_colorpicker_ui extends e_admin_ui
 	{
 	}
 
-	public function beforeCreate($new_data)
+	public function beforeCreate($new_data, $old_data)
 	{
 		return $new_data;
 	}

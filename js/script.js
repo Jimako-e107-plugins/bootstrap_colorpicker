@@ -1,6 +1,4 @@
 $(function(){
-	$('.colorpicker').colorpicker(
-	  {
-		customClass: 'colorpicker-2x',
-		});
+ 	$('.ecp').colorpicker();    
+
 });
